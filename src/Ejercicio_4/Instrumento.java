@@ -1,6 +1,4 @@
-package Ejercicios.Ejercicio_4;
-
-import java.util.Scanner;
+package Ejercicio_4;
 
 abstract public class Instrumento {
 

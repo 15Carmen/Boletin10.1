@@ -1,6 +1,4 @@
-package Ejercicios.Ejercicio_2;
-
-import java.util.ArrayList;
+package Ejercicio_2;
 
 public class Profesores {
 

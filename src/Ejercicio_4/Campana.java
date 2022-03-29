@@ -1,17 +1,17 @@
-package Ejercicios.Ejercicio_4;
+package Ejercicio_4;
 
-public class Piano extends Instrumento{
+public class Campana extends Instrumento{
 
     /**
      * Constructor por defecto
      */
-    public Piano() {
+    public Campana() {
         super();
     }
 
 
     /**
-     * Método que añade notas musicales al array notas.
+     * Método que añade notas musicales al array notas
      *
      * Precondición: Las notas introducidas deben pertenecer al enum Notas
      * Postcondición: Una vez que se llene el array aparecerá un mensaje que nos advertirá que no se pueden
@@ -39,45 +39,42 @@ public class Piano extends Instrumento{
     public void interpretar() {
 
         StringBuilder interpretacion = new StringBuilder();
+        //System.out.println("");
         interpretacion.append(System.lineSeparator());
 
         for (int i = 0; i < this.notas.length; i++) {
 
-            if (notas[i] != null){
+            if (notas[i] != null) {
 
-                switch (notas[i]){
+                switch (notas[i]) {
                     case DO:
-                        interpretacion.append("Plan ");
+                        interpretacion.append("Talan ");
                         break;
-
                     case RE:
-                        interpretacion.append("Plen ");
+                        interpretacion.append("Telen ");
                         break;
-
                     case MI:
-                        interpretacion.append("Plin ");
+                        interpretacion.append("Tilin ");
                         break;
-
                     case FA:
-                        interpretacion.append("Plon ");
+                        interpretacion.append("Tolon ");
                         break;
-
                     case SOL:
-                        interpretacion.append("Plun ");
+                        interpretacion.append("Tulun ");
                         break;
-
                     case LA:
-                        interpretacion.append("Pilin ");
+                        interpretacion.append("Talin ");
                         break;
-
                     case SI:
-                        interpretacion.append("Polon ");
+                        interpretacion.append("Telin ");
                         break;
                 }
             }
         }
 
         interpretacion.append(System.lineSeparator());
+        //System.out.println("");
         System.out.println(interpretacion);
+
     }
 }
