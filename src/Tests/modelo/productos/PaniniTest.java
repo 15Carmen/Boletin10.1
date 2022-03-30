@@ -1,4 +1,4 @@
-package Ejercicios.tests;
+package Tests.modelo.productos;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -19,4 +19,6 @@ class PaniniTest {
     @org.junit.jupiter.api.Test
     void testServir() {
     }
+
+
 }
